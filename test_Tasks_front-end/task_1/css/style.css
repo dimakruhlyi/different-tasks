@@ -1,0 +1,56 @@
+.block-1 {
+  background: blue;
+  color: white;
+  height: 30px; }
+
+.right {
+  display: flex;
+  float: right; }
+  .right .part-1 {
+    display: flex; }
+  .right .part-2 {
+    display: flex; }
+  .right .block-2, .right .block-3 {
+    background: green;
+    color: #fff;
+    height: 30px; }
+  .right .block-4, .right .block-5 {
+    background: orange;
+    color: #fff;
+    height: 30px; }
+
+@media only screen and (min-width: 1440px) {
+  .block-2, .block-3, .block-4, .block-5 {
+    width: 300px; } }
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .block-2, .block-3, .block-4, .block-5 {
+    width: 200px; } }
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .block-2, .block-3, .block-4, .block-5 {
+    width: 170px; } }
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .block-1 {
+    height: 60px; }
+
+  .part-1 {
+    flex-direction: column; }
+
+  .part-2 {
+    flex-direction: column; }
+
+  .block-2, .block-3, .block-4, .block-5 {
+    width: 150px; } }
+@media only screen and (max-width: 426px) {
+  .block-1 {
+    height: 60px; }
+
+  .part-1 {
+    flex-direction: column; }
+
+  .part-2 {
+    flex-direction: column; }
+
+  .block-2, .block-3, .block-4, .block-5 {
+    width: 100px; } }
+
+/*# sourceMappingURL=style.css.map */
