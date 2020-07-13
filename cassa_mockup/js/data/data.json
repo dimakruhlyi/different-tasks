@@ -1,0 +1,46 @@
+{
+    "1":{
+      "name": "pineapple",
+      "discount": "-50%",
+      "old__price": "19.00",
+      "new__price": "8.50",
+      "initial__count": 3,
+      "alt": "Pineapple",
+      "img": "pineapple.png",
+      "count__id": "one",
+      "count__block__id": "chooseCountBlock1"
+    },
+    "2":{
+        "name": "berries",
+        "discount": "-50%",
+        "old__price": "19.00",
+        "new__price": "8.50",
+        "initial__count": 3,
+        "alt": "Berries",
+        "img": "berries.png",
+        "count__id": "two",
+        "count__block__id": "chooseCountBlock2"
+    },
+    "3":{
+        "name": "grapefruit",
+        "discount": "-50%",
+        "old__price": "19.00",
+        "new__price": "8.50",
+        "initial__count": 3,
+        "alt": "Grapefruit",
+        "img": "grapefruit.png",
+        "count__id": "three",
+        "count__block__id": "chooseCountBlock3"
+    },
+    "4":{
+        "name": "apple",
+        "discount": "-50%",
+        "old__price": "19.00",
+        "new__price": "8.50",
+        "initial__count": 3,
+        "alt": "Apple",
+        "img": "apple.png",
+        "count__id": "four",
+        "count__block__id": "chooseCountBlock4"
+    }
+  }

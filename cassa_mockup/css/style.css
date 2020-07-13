@@ -1,0 +1,252 @@
+body {
+  background: #e25d89 url("../img/bg__img.png") no-repeat;
+  background-size: 100%;
+  overflow-x: hidden; }
+
+@font-face {
+  font-family: 'Evogria';
+  src: url("./fonts/Evogria.otf"); }
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("./fonts/BebasNeue.ttf"); }
+h1 {
+  font-family: 'Evogria';
+  font-size: 40px;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+  margin-top: 125px;
+  margin-left: 13px; }
+
+.container {
+  max-width: 915px;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  margin-left: 25px; }
+  .flex-container .flex-item {
+    width: 200px;
+    height: 500px;
+    background: url("../img/effect.png") no-repeat;
+    background-position: 0 200px; }
+    .flex-container .flex-item h2 {
+      font-family: 'BebasNeue';
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 28px;
+      margin-top: 32px;
+      margin-left: 24px; }
+    .flex-container .flex-item img {
+      margin-left: 42px;
+      margin-top: -10px; }
+    .flex-container .flex-item .bottom__part {
+      width: 200px;
+      height: 175px; }
+    .flex-container .flex-item .discount {
+      font-family: 'BebasNeue';
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 20px;
+      margin-left: 10px;
+      margin-top: 27px; }
+    .flex-container .flex-item .price {
+      position: relative; }
+    .flex-container .flex-item .new__price {
+      font-family: 'BebasNeue';
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 48px;
+      margin-top: -15px;
+      margin-left: -22px; }
+    .flex-container .flex-item .old__price {
+      font-family: 'BebasNeue';
+      font-weight: 200;
+      color: #fff;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 18px;
+      text-decoration: line-through;
+      position: absolute;
+      top: 8px;
+      left: 2; }
+  .flex-container .buy__items {
+    text-align: center;
+    margin-top: -31px;
+    position: relative; }
+    .flex-container .buy__items .buy__count, .flex-container .buy__items .buy__basket {
+      display: inline-block;
+      width: 50px;
+      height: 35px;
+      text-align: center;
+      color: #fff;
+      font-size: 22px; }
+    .flex-container .buy__items .buy__count {
+      border-bottom: 2px solid #fff;
+      font-family: 'BebasNeue';
+      margin-top: -10px;
+      position: absolute;
+      transition: all 2s;
+      left: 50px;
+      top: 10px; }
+    .flex-container .buy__items .buy__count:hover {
+      cursor: pointer; }
+    .flex-container .buy__items .buy__basket {
+      border: 2px solid #fff;
+      border-radius: 50px;
+      position: absolute;
+      left: 125px;
+      transition: all 2s; }
+    .flex-container .buy__items .buy__basket i {
+      margin-top: 7px;
+      margin-left: -3px; }
+    .flex-container .buy__items .buy__basket:hover {
+      cursor: pointer;
+      background: #fff; }
+      .flex-container .buy__items .buy__basket:hover i {
+        color: #000; }
+    .flex-container .buy__items .buy__basket:nth-child(2) {
+      left: 115px;
+      top: 3px; }
+  .flex-container .doska {
+    position: absolute;
+    top: 310px;
+    height: 21px; }
+
+.chooseCountBlock1, .chooseCountBlock2, .chooseCountBlock3, .chooseCountBlock4 {
+  width: 100px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 85px;
+  margin-left: 25px;
+  color: #fff;
+  padding-top: 4px;
+  padding-left: 15px;
+  overflow: auto; }
+  .chooseCountBlock1 .chooseCountBlock__item, .chooseCountBlock2 .chooseCountBlock__item, .chooseCountBlock3 .chooseCountBlock__item, .chooseCountBlock4 .chooseCountBlock__item {
+    font-family: 'BebasNeue';
+    font-size: 17px;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 0; }
+  .chooseCountBlock1 .chooseCountBlock__item:hover, .chooseCountBlock2 .chooseCountBlock__item:hover, .chooseCountBlock3 .chooseCountBlock__item:hover, .chooseCountBlock4 .chooseCountBlock__item:hover {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer; }
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px; }
+
+::-webkit-scrollbar-button {
+  background-color: #666; }
+
+::-webkit-scrollbar-track {
+  background-color: #999; }
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #666;
+  border-radius: 3px; }
+
+::-webkit-scrollbar-corner {
+  background-color: #999; }
+
+::-webkit-resizer {
+  background-color: #666; }
+
+/*------------------ Slider ------------------*/
+img {
+  vertical-align: middle; }
+
+.slideshow-container {
+  max-width: 225px;
+  height: 500px;
+  position: relative;
+  margin: auto; }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  margin-left: -25px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; }
+
+.prev {
+  margin-left: 0; }
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  margin-top: 15px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #fff; }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+.dots {
+  text-align: center;
+  margin-left: 50px; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+/*------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,260 @@
+$bgColor: #e25d89;
+$fontColor: #fff;
+$bgImg: '../img/bg__img.png';
+
+body{
+    background: $bgColor url($bgImg) no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+@font-face{
+    font-family: 'Evogria';
+    src: url('./fonts/Evogria.otf');
+}
+@font-face{
+    font-family: 'BebasNeue';
+    src: url('./fonts/BebasNeue.ttf');
+}
+h1{
+    font-family: 'Evogria';
+    font-size: 40px;
+    font-weight: 200;
+    color: $fontColor;
+    text-align: center;
+    margin-top: 125px;
+    margin-left: 13px;
+}
+.container{
+    max-width: 915px;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+@mixin text_properties{
+	font-family: 'BebasNeue';
+    font-weight: 200;
+    color: $fontColor;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 25px;
+    .flex-item{
+        width:200px;
+        height: 500px;
+        background:url('../img/effect.png') no-repeat;
+        background-position: 0 200px;
+        h2{
+            @include text_properties;
+            font-size: 28px;
+            margin-top: 32px;
+            margin-left: 24px;
+        }
+        img{
+            margin-left: 42px;
+            margin-top: -10px;
+        }
+        .bottom__part{
+            width: 200px;
+            height: 175px;
+            
+        }
+        .discount{
+            @include text_properties;
+            font-size: 20px;
+            margin-left: 10px;
+            margin-top: 27px;
+        }
+        .price{
+            position: relative;
+        }
+        .new__price{
+            @include text_properties;
+            font-size: 48px;
+            margin-top: -15px;
+            margin-left: -22px;
+        }
+        .old__price{
+            @include text_properties;
+            font-size: 18px;
+            text-decoration: line-through;
+            position: absolute;
+            top:8px;
+            left: 2;
+        }
+    }
+    .buy__items{
+        text-align: center;
+        margin-top: -31px;
+        position: relative;
+        .buy__count, .buy__basket{
+            display: inline-block;
+            width: 50px;
+            height: 35px;
+            text-align: center;
+            color:$fontColor;
+            font-size: 22px;
+        }
+        .buy__count{
+            border-bottom: 2px solid #fff;
+            font-family: 'BebasNeue';
+            margin-top: -10px;
+            position: absolute;
+            transition: all 2s;
+            left:50px;
+            top:10px;
+            
+        }
+        .buy__count:hover{
+            cursor: pointer;
+        }
+        .buy__basket{
+            border: 2px solid #fff;
+            border-radius: 50px;
+            position: absolute;
+            left: 125px;
+            transition: all 2s;
+        }
+        .buy__basket i{
+            margin-top: 7px;
+            margin-left: -3px;
+        }
+        .buy__basket:hover{
+            cursor: pointer;
+            background: #fff;
+            i{
+                color:#000;
+            }
+        }
+        .buy__basket:nth-child(2){
+            left: 115px;
+            top:3px;
+        }
+    }
+    
+    .doska{
+        position: absolute;
+        top: 310px;
+        height:21px;
+    }   
+}
+
+.chooseCountBlock1, .chooseCountBlock2,.chooseCountBlock3, .chooseCountBlock4{
+    width: 100px;
+    height: 150px;
+    background: rgba(0, 0, 0, .3);
+    margin-top: 85px;
+    margin-left: 25px;
+    color:#fff;
+    padding-top: 4px;
+    padding-left: 15px;
+    overflow: auto;
+    .chooseCountBlock__item{
+        font-family: 'BebasNeue';
+        font-size: 17px;
+        color:#fff;
+        padding-left: 10px;
+        padding-top: 5px;
+        box-sizing: border-box;
+        width:30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .chooseCountBlock__item:hover{
+        background: rgba(0, 0, 0, .3);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: rgba(0,0,0, .2);}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}
+
+
+
+/*------------------ Slider ------------------*/
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 225px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  margin-left: -25px;
+  color: $fontColor;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev{
+    margin-left: 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  margin-top: 15px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #fff;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.dots{
+    text-align: center;
+    margin-left: 50px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*------------------------------------*/
