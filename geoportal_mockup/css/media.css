@@ -1,0 +1,56 @@
+@media only screen and (max-width:992px){
+    .select__data{
+        height:1200px;
+    }
+    .about__text__block {
+        text-align: center;
+    }
+    .about__text__block .text__desc p{
+        margin: 0 auto;
+    }
+    
+}
+@media only screen and (max-width:767px){
+    .select__data{
+        height:2200px;
+    }
+    .controls{
+        margin-top: -75px;
+    }
+    .navigate.scrolling{
+        height: 100px;
+      }
+      .about{
+        margin-top:0px;
+    }
+    .lorem__btn{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .lorem__ipsum__1{
+        height: 700px;
+    }
+    .lorem__ipsum__1 p{
+        margin: 0 auto;
+    }
+    .contact{
+        height: 750px;
+    }
+}
+@media only screen and (max-width:576px){
+    header{
+        height: 950px;
+    }
+    .select__data{
+        margin-top: -170px;
+    }
+    .navigate.scrolling{
+        height: 210px;
+      }
+      .lorem__ipsum__1 .lorem__head h2{
+          font-size: 36px;
+      }
+      .contact{
+        height: 950px;
+    }
+}
