@@ -1,0 +1,7 @@
+C:\Users\Dima Kruhlyi\Desktop\oop\OopTest\OopTest\bin\Debug\OopTest.exe.config
+C:\Users\Dima Kruhlyi\Desktop\oop\OopTest\OopTest\bin\Debug\OopTest.exe
+C:\Users\Dima Kruhlyi\Desktop\oop\OopTest\OopTest\bin\Debug\OopTest.pdb
+C:\Users\Dima Kruhlyi\Desktop\oop\OopTest\OopTest\obj\Debug\OopTest.csprojResolveAssemblyReference.cache
+C:\Users\Dima Kruhlyi\Desktop\oop\OopTest\OopTest\obj\Debug\OopTest.csproj.CoreCompileInputs.cache
+C:\Users\Dima Kruhlyi\Desktop\oop\OopTest\OopTest\obj\Debug\OopTest.exe
+C:\Users\Dima Kruhlyi\Desktop\oop\OopTest\OopTest\obj\Debug\OopTest.pdb
