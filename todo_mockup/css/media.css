@@ -1,0 +1,48 @@
+@media only screen and (min-width: 1340px){
+    .container{
+        margin-left: 60px;  
+    }
+}
+@media only screen and (max-width: 1219px){
+    .content .sidebar{
+        height: 200%;
+    }
+}
+@media only screen and (max-width: 1050px){
+    .nav__container{
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 892px){
+    .content .sidebar{
+        height: 275%;
+    }
+    .container{
+        margin-left: -30px;  
+    }
+    
+}
+@media only screen and (max-width: 570px){
+    .nav__container{
+        height: 200px;
+    }
+    
+   
+}
+@media only screen and (max-width: 487px){
+    .nav__container{
+        height: 250px;
+    }
+    .nav__container .users__data{
+        margin-top: -50px;
+    }
+    .nav__container .users__data .active__user {
+        margin-top: 20px;
+    }
+    .nav__container{
+        width: 115vw;
+    }
+    .date__data{
+        margin-top: 15px;
+    }
+}
