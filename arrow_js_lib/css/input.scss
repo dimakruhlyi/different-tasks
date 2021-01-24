@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+a.button7 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #D2691E;
+    box-shadow: 0 -3px rgb(210, 105, 30) inset;
+    transition: 0.2s;
+    margin-top: 50vh;
+  } 
+  a.button7:hover { background: rgb(205, 133, 63); }
+  a.button7:active {
+    background:  rgb(205, 133, 63);
+    box-shadow: 0 3px  rgb(205, 133, 63) inset;
+  }

@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+a.button7 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: #D2691E;
+  box-shadow: 0 -3px chocolate inset;
+  transition: 0.2s;
+  margin-top: 50vh;
+}
+
+a.button7:hover {
+  background: peru;
+}
+
+a.button7:active {
+  background: peru;
+  box-shadow: 0 3px peru inset;
+}
+
+/*# sourceMappingURL=style.css.map */
